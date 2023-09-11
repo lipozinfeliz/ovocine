@@ -3,14 +3,14 @@ html, body{
     padding: 0;
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
-    background-color:indianred;
+    background-color:rgb(19, 5, 5);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	background-color: darksalmon;
+	background-color: #f3b226;
 	height: 50px;
 	padding-top: 25px;
 	color: hsl(0, 3%, 6%);
@@ -18,8 +18,8 @@ header {
 }
 
 header img {
-    width: 48px;
-    height: 48px;    
+    width: 40px;
+    height: 40px;    
 }
 
 .menu a{
@@ -41,36 +41,17 @@ main {
 	flex-wrap: wrap;	
 }
 
-.box {
-	width: 350px;
-	height: 400px;
-	background-color: #f18e70;
-	border-radius: 10px;
-	padding: 20px;	
-	color: #f0d9c1;
-	border-style: solid;    
-	margin-bottom: 20px;
-}
-
-.box h2 {
-	margin: 0 0 10px 0;
-	padding: 0;
-}
-
 img {
-	width: 300px;
-	height: 200px;    
-}
-
-.box p {
-	text-align: justify;	
-}
-
-#white{
-    background-color: #577685;
+	width: 350px;
+	height: 400px;  
 }
 
 footer{
 	text-align: center;
 	color: whitesmoke;
 }
+
+#teste3{position: relative;top: 0;;padding: 4px;background-color: #f3b226; 
+	
+	transition: all .2 ease-in-out}
+#teste3:hover{top: -4px;box-shadow:0 5px 5px hwb(0 89% 9%)}
